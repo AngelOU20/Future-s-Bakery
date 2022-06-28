@@ -8,8 +8,8 @@
     --header-height: 3rem;
   
     /*========== Colors ==========*/
-    --first-color: #069C54;
-    --first-color-alt: #048654;
+    --first-color: #4db6a1;
+    --first-color-alt: #51a695;
     --title-color: #393939;
     --text-color: #707070;
     --text-color-light: #A6A6A6;
@@ -308,6 +308,7 @@ img{
 
 .services__container{
     row-gap: 2.5rem;
+    height: 55vh;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
@@ -385,6 +386,7 @@ img{
 /* CONTACT US */
 .contact__container{
     text-align: center;
+    height: 70vh;
 }
 
 .contact__description{
@@ -527,11 +529,14 @@ img{
 
     .home__img{
         width: 500px;
+        margin-right: 1rem;
+        margin-left: 5rem;
         border-radius: 50%;
     }
 
     .about__container{
         column-gap: 7rem;
+        height: 65vh;
     }
 
     .menu__container{
