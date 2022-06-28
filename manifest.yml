@@ -1,0 +1,4 @@
+applications:
+ - name: future-bakery
+   random-route: true
+   memory: 64M
